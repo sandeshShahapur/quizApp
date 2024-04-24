@@ -1,6 +1,6 @@
-# Monolith Quiz Application
+# Quiz Application
 
-This project is a monolith quiz application that implements a RESTful API with CRUD operations for questions and quizzes. It's built using Spring Boot, following the MVC architecture, and managed with Maven. You can use Postman to test the API.
+Backend implementation of a Quiz Application through the use of RESTful API with CRUD operations for questions and quizzes. It's built using Spring Boot, following the MVC architecture, and managed with Maven. You can use Postman to test the API.
 
 ## Local Hosting Instructions
 
@@ -32,19 +32,12 @@ Follow these steps to locally host the project and test the API using Postman:
 The application will be accessible at `http://localhost:8080`
 
 ### Using Postman to Test the API
-1. Open Postman and import the collection:
-
-  Import the provided Monolith Quiz Application.postman_collection.json file into Postman. This collection includes sample API requests.
-
-2. Start testing the API:
-
-  - Choose the imported collection in Postman.
+1. Testing the API:
   - Utilize the various requests to interact with the API:
     - Create new questions and quizzes
     - Retrieve questions and quizzes
     - Update existing questions and quizzes
     - Delete questions and quizzes
-Remember to replace placeholders in the API URLs with actual values.
 
 # Contributing
 Contributions aren't welcome.
